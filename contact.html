@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        display: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-slate-50 via-white to-slate-50 text-gray-900 font-poppins">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200/50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="font-display text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Portfolio</a>
+            <div class="flex gap-8">
+                <a href="index.html" class="relative px-0 py-0 text-sm font-medium text-gray-700 hover:text-gray-900 group">
+                    Home
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="about.html" class="relative px-0 py-0 text-sm font-medium text-gray-700 hover:text-gray-900 group">
+                    About
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="projects.html" class="relative px-0 py-0 text-sm font-medium text-gray-700 hover:text-gray-900 group">
+                    Projects
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="contact.html" class="relative px-0 py-0 text-sm font-medium text-blue-600 group">
+                    Contact
+                    <span class="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-purple-600"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTACT SECTION -->
+    <section class="min-h-screen flex items-center py-20">
+        <div class="max-w-4xl mx-auto w-full px-6">
+            <h2 class="font-display text-4xl md:text-5xl font-bold mb-16 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Get In Touch</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Contact Info Card -->
+                <div class="opacity-0 animate-slideIn" style="animation: slideIn 0.8s ease-out forwards;">
+                    <div class="h-full bg-white rounded-2xl border border-gray-200 p-8 hover:border-blue-600 hover:shadow-xl hover:-translate-y-2.5 transition-all duration-300">
+                        <h3 class="font-display text-2xl font-bold mb-8">Contact Details</h3>
+                        
+                        <div class="mb-6">
+                            <p class="text-sm text-gray-600 mb-2">Email</p>
+                            <p class="text-lg font-semibold text-gray-900">ummerubaiya667@gmail.com</p>
+                        </div>
+
+                        <div class="mb-6">
+                            <p class="text-sm text-gray-600 mb-2">+8801944971044</p>
+                                                    </div>
+
+                        <div class="mb-6">
+                            <p class="text-sm text-gray-600 mb-2">Chittagong , Bangladesh</p>
+                            </div>
+
+                        <div class="mb-6">
+                            <p class="text-sm text-gray-600 mb-3">Follow Me</p>
+                            <div class="flex gap-4">
+                                <a href="#" class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                                </a>
+                                                                <a href="#" class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300">
+                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.731-2.004 1.439-.103.25-.129.599-.129.948v5.418h-3.554s.05-8.755 0-9.654h3.554v1.367c.43-.664 1.202-1.61 2.923-1.61 2.135 0 3.735 1.39 3.735 4.38v5.517zM5.337 9.433c-1.144 0-1.915-.759-1.915-1.71 0-.955.77-1.71 1.954-1.71 1.184 0 1.915.756 1.937 1.71 0 .951-.753 1.71-1.937 1.71zm1.581 11.019H3.656V9.798h3.262v10.654zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                            <p class="text-sm text-blue-900"><span class="font-semibold"> Quick Response:</span> I usually respond to messages within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd card -->
+                <div class="opacity-0 animate-slideIn" style="animation: slideIn 0.8s ease-out forwards 0.2s;">
+                    <div class="h-full bg-white rounded-2xl border border-gray-200 p-8 hover:border-blue-600 hover:shadow-xl hover:-translate-y-2.5 transition-all duration-300">
+                        <h3 class="font-display text-2xl font-bold mb-8">Send Me a Message</h3>
+                        
+                        <form id="contactForm" onsubmit="sendEmail(event)">
+                            <div class="mb-6">
+                                <label for="firstName" class="block text-sm font-semibold text-gray-700 mb-2">First Name</label>
+                                <input 
+                                    type="text" 
+                                    id="firstName" 
+                                    name="firstName" 
+                                    required
+                                    class="w-full px-4 py-3 rounded-lg bg-gray-50 border-2 border-gray-200 focus:border-blue-600 focus:bg-white outline-none transition-all duration-300"
+                                    placeholder="Your first name"
+                                >
+                            </div>
+
+                            <div class="mb-6">
+                                <label for="lastName" class="block text-sm font-semibold text-gray-700 mb-2">Last Name</label>
+                                <input 
+                                    type="text" 
+                                    id="lastName" 
+                                    name="lastName" 
+                                    required
+                                    class="w-full px-4 py-3 rounded-lg bg-gray-50 border-2 border-gray-200 focus:border-blue-600 focus:bg-white outline-none transition-all duration-300"
+                                    placeholder="Your last name"
+                                >
+                            </div>
+
+                            <div class="mb-6">
+                                <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    required
+                                    class="w-full px-4 py-3 rounded-lg bg-gray-50 border-2 border-gray-200 focus:border-blue-600 focus:bg-white outline-none transition-all duration-300"
+                                    placeholder="your.email@example.com"
+                                >
+                            </div>
+
+                            <div class="mb-8">
+                                <label for="message" class="block text-sm font-semibold text-gray-700 mb-2">Message</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    rows="5"
+                                    required
+                                    class="w-full px-4 py-3 rounded-lg bg-gray-50 border-2 border-gray-200 focus:border-blue-600 focus:bg-white outline-none resize-none transition-all duration-300"
+                                    placeholder="Your message..."
+                                ></textarea>
+                            </div>
+
+                            <button 
+                                type="submit"
+                                class="w-full px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300"
+                            >
+                                Send Message
+                            </button>
+                        </form>
+
+                        <div id="formMessage" class="mt-4 text-sm text-center text-gray-600"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                        display: ['Playfair Display', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-slate-50 via-white to-slate-50 text-gray-900 font-poppins">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-gray-200/50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="font-display text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Portfolio</a>
+            <div class="flex gap-8">
+                <a href="index.html" class="relative px-0 py-0 text-sm font-medium text-gray-700 hover:text-gray-900 group">
+                    Home
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="about.html" class="relative px-0 py-0 text-sm font-medium text-blue-600 group">
+                    About
+                    <span class="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-blue-600 to-purple-600"></span>
+                </a>
+                <a href="projects.html" class="relative px-0 py-0 text-sm font-medium text-gray-700 hover:text-gray-900 group">
+                    Projects
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
+                </a>
+                <a href="contact.html" class="relative px-0 py-0 text-sm font-medium text-gray-700 hover:text-gray-900 group">
+                    Contact
+                    <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 group-hover:w-full transition-all duration-300"></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+    <section class="min-h-screen flex items-center py-20">
+        <div class="max-w-6xl mx-auto w-full px-6">
+            <h2 class="font-display text-4xl md:text-5xl font-bold mb-12 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">About Me</h2>
+
+            <!-- About Paragraph -->
+            <div class="mb-16">
+                <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                    I'm a dedicated  learner exploring full-stack developer with building web applications. My journey started with a curiosity about how things work, which led me to learn programming and design. Today, I specialize in creating responsive, user-friendly applications using modern technologies.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community. I believe in continuous learning and staying updated with the latest industry trends.
+                </p>
+            </div>
+
+            
+            <!-- Projects Preview -->
+            <div>
+                <h3 class="font-display text-2xl font-bold mb-8">Featured Projects</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-blue-600 hover:-translate-y-2.5 hover:shadow-xl transition-all duration-300">
+                        <div class="relative h-48 bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center overflow-hidden group">
+                            <img src="Cover.jpg" alt="Project 1" class="w-full h-full object-cover">
+                                                     <a href="projects.html" class="absolute inset-0 flex items-center justify-center bg-black/50 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                View Project →
+                            </a>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-bold text-lg mb-2">Wholesale Management Syestem</h4>
+                            <p class="text-gray-600 text-sm">A full-featured online store with payment integration</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-blue-600 hover:-translate-y-2.5 hover:shadow-xl transition-all duration-300">
+                        <div class="relative h-48 bg-gradient-to-br from-green-500 to-teal-500 flex items-center justify-center overflow-hidden group">
+                            <img src="Frame 1618872417.png" alt="Project 2" class="w-full h-full object-cover">
+                                                        <a href="projects.html" class="absolute inset-0 flex items-center justify-center bg-black/50 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                View Project →
+                            </a>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-bold text-lg mb-2">Analytics Dashboard</h4>
+                            <p class="text-gray-600 text-sm">Real-time data visualization and reporting tool</p>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-blue-600 hover:-translate-y-2.5 hover:shadow-xl transition-all duration-300">
+                        <div class="relative h-48 bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center overflow-hidden group">
+                            <img src="p3.png" alt="Project 3" class="w-full h-full object-cover">
+                                                    <a href="projects.html" class="absolute inset-0 flex items-center justify-center bg-black/50 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                View Project →
+                            </a>
+                        </div>
+                        <div class="p-6">
+                            <h4 class="font-bold text-lg mb-2">Task Management App</h4>
+                            <p class="text-gray-600 text-sm">Collaborative project management solution</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
